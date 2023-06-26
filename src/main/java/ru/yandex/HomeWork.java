@@ -13,8 +13,7 @@ public class HomeWork {
      * 1000 -> 1 (это называется не значащие нули)
      * */
     public static int reverse(int value) {
-        // todo
-        return 0;
+        return value / 1000 + ( value / 100 % 10 ) * 10 + value % 100 / 10 * 100 + value % 10 * 1000;
     }
 
     /**
@@ -26,9 +25,7 @@ public class HomeWork {
      * подумать над кейсами
      * */
     public static int difference(int value) {
-        // todo
-        // my code
-        return 0;
+        return ( value / 100 ) - ( value % 100 );
     }
 
 }
