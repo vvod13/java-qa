@@ -1,7 +1,5 @@
 package ru.yandex.lesson2.homework;
 
-import ru.yandex.lesson2.PointBuilder;
-
 public class SerialInventoryBuilder {
 
     private long serialKey;
